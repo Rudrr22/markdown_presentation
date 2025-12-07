@@ -22,18 +22,24 @@ section.title {
 }
 
 section.compact {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 h1, h2, h3 {
   color: #e5e7eb;
 }
 
-a {
-  color: #38bdf8;
-}
-
 footer {
-  color: #9ca3af;
+  color: #94a3b8;
   font-size: 0.7rem;
 }
+<!-- _class: title -->
+Product Documentation with Marp
+
+Maintainable documentation for engineering teams.
+
+Contact Email:
+
+24f2004315@ds.study.iitm.ac.in
+
+<footer>Product Documentation · Marp Presentation</footer> ```
