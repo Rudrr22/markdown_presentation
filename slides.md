@@ -1,25 +1,22 @@
----
-marp: true
-paginate: true
-headingDivider: 2
-theme: custom-theme
----
+<!-- marp: true -->
+<!-- paginate: true -->
+<!-- theme: custom-theme -->
 
 <style>
 section {
   font-family: Arial, sans-serif;
 }
 
+h1 {
+  color: #0057b7;
+}
+
 section::after {
   content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
   position: absolute;
-  bottom: 10px;
+  bottom: 12px;
   right: 20px;
-  font-size: 0.7rem;
-}
-
-h1 {
-  color: #0057b7;
+  font-size: 0.75rem;
 }
 </style>
 
@@ -30,23 +27,25 @@ Email: **24f2004315@ds.study.iitm.ac.in**
 
 ## Introduction
 
-This presentation is built using **Marp**.
+This presentation uses:
 
-- Uses Marp directives
-- Custom theme styling
-- Page numbers enabled
+- **Marp directives** (HTML comment style)
+- **Custom theme styling**
+- **Page numbers**
+- **Math formulas**
+- **Background images**
 
 ---
 
 ## Background Image Slide
 
-![bg opacity=0.25](https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600)
+![bg opacity=0.2](https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600)
 
-# Architecture Overview
+# System Architecture Overview
 
 ---
 
-## Algorithmic Complexity
+## Algorithmic Complexity (Math Example)
 
 \[
 T(n) = T(n/2) + O(1)
@@ -58,5 +57,5 @@ T(n) = O(\log n)
 
 ---
 
-# Thank You
+# Thank You  
 Contact: **24f2004315@ds.study.iitm.ac.in**
